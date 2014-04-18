@@ -12,7 +12,7 @@ scripts for scraping gcmd and making trees
      5. Move downloaded files into folder, make back up copy, change relevant lines of code pointing to file in crawlLinks.py
      6. Open all downloaded files in Text Wrangler, and begin text clean up. Because all of the files use html comments to mark fields, and because Beautiful Soup doesn't seem to recognize comments in any useful way, we're going to make some ad hoc xml for BeautifulSoup to work with later
           * replace all `<\!-- ` with `\</metadata><metadata tag="`   <-- this closes the prior section while opening up the new section
-          * replace all *-->* with *\>*
+          * replace all `-->` with `\>`
           * grep to find and delete repeated filler like =, spaces, etc
           * finally, find and delete all line breaks (this just makes for cleaner output later).
      7. You are finally ready to crawl the text.  Run files through crawlLinks.py

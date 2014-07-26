@@ -2,6 +2,8 @@ phylomemetics
 =============
 
 scripts for scraping gcmd and making trees
+full work described in: 
+Thomer, A. & Weber, N. (accepted).  The Phylogeny of a Dataset.  Paper to be presented at Annual Meetin of the American Society for Information Science and Technology, 2014.  Seattle, WA.
 
 - most of these scripts are disappointingly a) simple, b) not related to phylogenetics, and c) and saddest of all, probably not necessary had I spent the time to figure out the GCMD API, or at the very least, thought to download the files in ISO 19115.  As it is I had to do a ton of text fussing and formatting after the fact.  Workflow as best I remember it (with screwy workarounds to get Beautiful Soup to work:
 

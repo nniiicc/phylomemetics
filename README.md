@@ -1,7 +1,8 @@
 phylomemetics
 =============
 
-scripts for scraping gcmd and making trees
+scripts for scraping gcmd and making trees.
+
 full work described in: 
 Thomer, A. & Weber, N. (accepted).  The Phylogeny of a Dataset.  Paper to be presented at Annual Meetin of the American Society for Information Science and Technology, 2014.  Seattle, WA.
 
